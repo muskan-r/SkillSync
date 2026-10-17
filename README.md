@@ -97,8 +97,6 @@ CLOUDINARY_API_KEY=your_cloudinary_api_key
 CLOUDINARY_API_SECRET=your_cloudinary_api_secret
 ```
 
-> ⚠️ Never commit your `.env` file or expose your API keys publicly.
-
 ---
 
 ## ▶️ Run Locally
@@ -132,8 +130,6 @@ Runs on `http://localhost:5173`
 | Database      | MongoDB Atlas |
 | Image Storage | Cloudinary    |
 | AI            | Google Gemini |
-
-For production, set the same environment variables listed above directly on Render's dashboard, with `CLIENT_URL` pointed at your deployed Vercel URL.
 
 ---
 
